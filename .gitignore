@@ -1,0 +1,12 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Microservices/obj
+/IdentityServer/Course.IdentityServer/bin/Debug/netcoreapp3.1
+/IdentityServer/Course.IdentityServer/obj
+/.vs
+/Services/Catalog/Course.Services.Catalog/bin/Debug/net7.0
+/Services/Catalog/Course.Services.Catalog/obj
+/Shared/Course.Shared/bin/Debug/netcoreapp3.1
+/Shared/Course.Shared/obj

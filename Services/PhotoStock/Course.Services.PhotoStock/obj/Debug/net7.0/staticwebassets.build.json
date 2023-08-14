@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "CQPLqPKUWm9YlDzQ6YvLzgNNVNEbJnPxnFnQV7rGgi0=",
+  "Source": "Course.Services.PhotoStock",
+  "BasePath": "_content/Course.Services.PhotoStock",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Course.Services.PhotoStock\\wwwroot",
+      "Source": "Course.Services.PhotoStock",
+      "ContentRoot": "C:\\Users\\mehme\\source\\repos\\Microservice\\Services\\PhotoStock\\Course.Services.PhotoStock\\wwwroot\\",
+      "BasePath": "_content/Course.Services.PhotoStock",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\mehme\\source\\repos\\Microservice\\Services\\PhotoStock\\Course.Services.PhotoStock\\wwwroot\\photos\\image.png",
+      "SourceId": "Course.Services.PhotoStock",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mehme\\source\\repos\\Microservice\\Services\\PhotoStock\\Course.Services.PhotoStock\\wwwroot\\",
+      "BasePath": "_content/Course.Services.PhotoStock",
+      "RelativePath": "photos/image.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\photos\\image.png"
+    }
+  ]
+}
