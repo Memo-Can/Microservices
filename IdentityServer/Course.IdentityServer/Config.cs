@@ -1,4 +1,4 @@
-﻿// Copyright (c) Brock Allen & Dominick Baier. All rights reserved.
+﻿ // Copyright (c) Brock Allen & Dominick Baier. All rights reserved.
 // Licensed under the Apache License, Version 2.0. See LICENSE in the project root for license information.
 
 
@@ -11,18 +11,22 @@ using System.ComponentModel;
 
 namespace Course.IdentityServer
 {
-    public static class Config
+    public static class Config 
     {
         private const string _resource_catalog = "resource_catalog";
-        private const string _photo_stock_catalog = "photo_stock_catalog";
+        private const string _resource_photo_stock = "resource_photo_stock";
+        private const string _resource_basket = "resource_basket";
+
         private const string _catalog_fullpermission = "catalog_fullpermission";
         private const string _photo_stock_fullpermission = "photo_stock_fullpermission";
+        private const string _basket_fullpermission = "basket_fullpermission";
 
 
         public static IEnumerable<ApiResource> ApiResources => new ApiResource[]
         {
             new ApiResource(_resource_catalog){Scopes={_catalog_fullpermission }},
-            new ApiResource(_photo_stock_catalog){Scopes={ _photo_stock_fullpermission }},
+            new ApiResource(_resource_photo_stock){Scopes={ _photo_stock_fullpermission }},
+            new ApiResource(_resource_basket){Scopes={ _basket_fullpermission }},
             new ApiResource(IdentityServerConstants.LocalApi.ScopeName)
         };
 
@@ -38,6 +42,7 @@ namespace Course.IdentityServer
         {
             new ApiScope(_catalog_fullpermission,"Catalog api tam erişim"),
             new ApiScope(_photo_stock_fullpermission,"Foto stok api tam erişim"),
+            new ApiScope(_basket_fullpermission,"Basket için full erişim"),
             new ApiScope(IdentityServerConstants.LocalApi.ScopeName)
         };
 
@@ -61,6 +66,7 @@ namespace Course.IdentityServer
                 ClientSecrets={new Secret("secret".Sha256())},
                 AllowedGrantTypes = GrantTypes.ResourceOwnerPassword,
                 AllowedScopes={
+                    _basket_fullpermission,
                     IdentityServerConstants.StandardScopes.Email,
                     IdentityServerConstants.StandardScopes.OpenId,
                     IdentityServerConstants.StandardScopes.Profile,

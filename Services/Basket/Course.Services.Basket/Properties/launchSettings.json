@@ -1,0 +1,23 @@
+﻿{
+  "$schema": "https://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:35437",
+      "sslPort": 0
+    }
+  },
+  "profiles": {
+    "Course.Services.Basket": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": false, //microservisler fazla olduğunda tab açılmasını ebgellmek için kaopattık
+      "launchUrl": "swagger",
+      "applicationUrl": "http://localhost:5013",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

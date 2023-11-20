@@ -1,11 +1,11 @@
 ﻿using Course.Services.Catalog.Dtos;
 using Course.Services.Catalog.Services;
-using Course.Shared;
+using Course.Shared.Controllers;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Course.Services.Catalog.Controllers
 {
-	[Route("api/[controller]")]
+    [Route("api/[controller]")]
 	[ApiController]
 	public class CourseController : CustomBaseController
 	{

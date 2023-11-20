@@ -1,5 +1,5 @@
 ﻿using Course.Services.PhotoStock.Dto;
-using Course.Shared;
+using Course.Shared.Controllers;
 using Course.Shared.Dtos;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;

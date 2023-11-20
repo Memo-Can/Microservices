@@ -2,14 +2,10 @@ using Course.Services.Catalog.Services;
 using Course.Services.Catalog.Settings;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Mvc.Authorization;
-using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Options;
 using Microsoft.OpenApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
-
-
-
 
 builder.Services.AddControllers();
 

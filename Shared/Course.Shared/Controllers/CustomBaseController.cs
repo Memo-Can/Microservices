@@ -1,7 +1,7 @@
 ﻿using Course.Shared.Dtos;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Course.Shared
+namespace Course.Shared.Controllers
 {
     public class CustomBaseController : ControllerBase
     {

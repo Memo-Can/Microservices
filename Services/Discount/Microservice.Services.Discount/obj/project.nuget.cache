@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "bG7D5X8U0jv1oqYVMUU7jpRvOoZEeCmwdsMVY87GRcmZlgdU5LChx6ugQKUkZdTvDl285ZlCk+tZpRra1S6qDQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\mehme\\source\\repos\\Microservice\\Services\\Discount\\Microservice.Services.Discount\\Microservice.Services.Discount.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mehme\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.12\\microsoft.aspnetcore.openapi.7.0.12.nupkg.sha512",
+    "C:\\Users\\mehme\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\mehme\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
+    "C:\\Users\\mehme\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "C:\\Users\\mehme\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "C:\\Users\\mehme\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "C:\\Users\\mehme\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
